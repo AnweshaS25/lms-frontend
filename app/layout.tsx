@@ -44,11 +44,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className="min-h-screen flex flex-col">
         <Header />
-        <div className="flex flex-1">
-          <Sidebar />
+        <div className="flex flex-1"> 
           <main className="flex-1 bg-white p-6">
             {children}
           </main>
+          <Sidebar />
         </div>
         <Footer />
       </body>
