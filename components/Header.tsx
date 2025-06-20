@@ -19,7 +19,7 @@
 
 export default function Header() {
   return (
-    <header className="bg-blue-600 text-white flex justify-between items-center px-6 py-4 shadow">
+    <header className="bg-purple-600 text-white flex justify-between items-center px-6 py-4 shadow">
       <div className="text-xl font-bold">LMS</div>
       <nav className="space-x-6 text-sm">
         <a href="#" className="hover:underline">Dashboard</a>
