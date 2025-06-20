@@ -27,10 +27,10 @@ export default function Sidebar() {
     <aside className="bg-gray-900 text-gray-200 w-64 min-h-screen p-6 space-y-4 hidden lg:block">
       <h2 className="text-lg font-semibold mb-4">LMS</h2>
       <nav className="space-y-2 text-sm">
-        <a href="#" className="block hover:bg-gray-800 px-3 py-2 rounded">Dashboard</a>
-        <a href="#" className="block hover:bg-gray-800 px-3 py-2 rounded">Courses</a>
-        <a href="#" className="block hover:bg-gray-800 px-3 py-2 rounded">Profile</a>
-        <a href="#" className="block hover:bg-gray-800 px-3 py-2 rounded">Settings</a>
+        <a href="#" className="block hover:bg-black-800 px-3 py-2 rounded">Dashboard</a>
+        <a href="#" className="block hover:bg-black-800 px-3 py-2 rounded">Courses</a>
+        <a href="#" className="block hover:bg-black-800 px-3 py-2 rounded">Profile</a>
+        
       </nav>
     </aside>
   );
