@@ -8,14 +8,8 @@
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-6 px-4 mt-auto text-center shadow-inner">
-      <div className="text-sm md:text-base">
-        © {new Date().getFullYear()} <span className="font-semibold text-white">My LMS</span>. All rights reserved.
-      </div>
-      <div className="mt-2 text-xs text-gray-400">
-        Built with ❤️ using React and Tailwind CSS
-      </div>
+    <footer className="bg-gray-900 text-gray-400 text-center text-sm py-3">
+      © 2025 LMS. All rights reserved.
     </footer>
   );
 }
-

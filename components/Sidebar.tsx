@@ -24,30 +24,14 @@
 
 export default function Sidebar() {
   return (
-    <aside className="hidden lg:block w-64 bg-gray-50 border-r border-gray-200 p-6 shadow-md min-h-screen">
-      <h2 className="text-lg font-semibold text-gray-800 mb-4">Menu</h2>
-      <nav className="space-y-3">
-        <a
-          href="#"
-          className="block px-4 py-2 rounded-md text-gray-700 hover:bg-indigo-100 hover:text-indigo-700 transition duration-200 font-medium"
-        >
-          Overview
-        </a>
-        <a
-          href="#"
-          className="block px-4 py-2 rounded-md text-gray-700 hover:bg-indigo-100 hover:text-indigo-700 transition duration-200 font-medium"
-        >
-          My Courses
-        </a>
-        <a
-          href="#"
-          className="block px-4 py-2 rounded-md text-gray-700 hover:bg-indigo-100 hover:text-indigo-700 transition duration-200 font-medium"
-        >
-          Settings
-        </a>
+    <aside className="bg-gray-900 text-gray-200 w-64 min-h-screen p-6 space-y-4 hidden lg:block">
+      <h2 className="text-lg font-semibold mb-4">LMS</h2>
+      <nav className="space-y-2 text-sm">
+        <a href="#" className="block hover:bg-gray-800 px-3 py-2 rounded">Dashboard</a>
+        <a href="#" className="block hover:bg-gray-800 px-3 py-2 rounded">Courses</a>
+        <a href="#" className="block hover:bg-gray-800 px-3 py-2 rounded">Profile</a>
+        <a href="#" className="block hover:bg-gray-800 px-3 py-2 rounded">Settings</a>
       </nav>
     </aside>
   );
 }
-
-
